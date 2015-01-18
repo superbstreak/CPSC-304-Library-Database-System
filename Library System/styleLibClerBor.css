@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+#tablestyle {
+	vertical-align: top;
+	padding-top: 20px;
+	padding-bottom: 1px;
+	border: 1px solid #D3E1EE;
+	width: 900px;
+	height: 500px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#title {
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#4F81BD;
+	font-size:40px;
+	font-variant:small-caps;
+	margin-left: 10px;
+	padding-top: 20px;
+}
+
+/*for telling the client what to do*/
+#command {
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	font-size:14px;
+	margin-left: 10px;
+}
+
+/*for any button you click on*/
+#button {
+	display:block;
+	background:#7199CA;
+	border:2px double #4F81BD;
+	border-radius:10px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	color:#FFF;
+	width:250px;
+	border:none;
+	cursor:pointer;
+	padding:10px;
+	margin-left: 325px;
+	text-align:center;
+}
+
+#a:link {
+	text-decoration:none;
+	color:#7199CA;
+}
+
+/*for fields of forms*/
+#forms{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#666;
+	font-size:14px;
+	margin-left: 10px;
+}
+
+/*for front page drop down*/
+#dropdown{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#666;
+	font-size:14px;
+	margin-left: 95px;
+}
+
+#body {
+	text-align:left;
+	margin-left: 10px;
+}
+
+#tabletitle {
+	font-family:Verdana, Geneva, sans-serif;
+	color:#666;
+	font-size:14px;
+	font-weight:bold;
+

@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+#tablestyle {
+	vertical-align: top;
+	padding-top: 20px;
+	padding-bottom: 1px;
+	border: 1px solid #D3E1EE;
+	width: 900px;
+	height: 500px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#title {
+	text-align:left;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#4F81BD;
+	font-size:40px;
+	font-variant:small-caps;
+	margin-left: 10px;
+}
+
+#semititle {
+	text-align:left;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#4F81BD;
+	font-size:20px;
+	font-variant:small-caps;
+	margin-left: 10px;
+}
+
+/*for telling the client what to do*/
+#command {
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	font-size:14px;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+/*for when an error occurs*/
+#error {
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#900;
+	font-size:14px;
+	margin-left: 10px;
+}
+
+/*for when successful transaction made*/
+#success {
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#396;
+	font-size:14px;
+	margin-left: 10px;
+}
+
+/*for up/down button you click on*/
+#button {
+	display:block;
+	background:#7199CA;
+	border:2px double #4F81BD;
+	border-radius:10px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	color:#FFF;
+	width:250px;
+	border:none;
+	cursor:pointer;
+	padding:5px;
+	margin-left: 10px;
+}
+
+/*for side by side button you click on*/
+#buttonSide {
+	display:block;
+	background:#7199CA;
+	border:2px double #4F81BD;
+	border-radius:10px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	color:#FFF;
+	width:250px;
+	border:none;
+	cursor:pointer;
+	padding:5px;
+	margin-left: 10px;
+	float:left;
+	text-align:center;
+}
+
+#a:link {
+	text-decoration:none;
+	color:#7199CA;
+}
+
+/*for fields of forms*/
+#forms{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#666;
+	font-size:14px;
+	margin-left: 10px;
+}
+
+/*for front page drop down*/
+#dropdown{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#666;
+	font-size:14px;
+	margin-left: 95px;
+}
+
+#body {
+	text-align:left;
+	margin-left: 10px;
+}
+
+#tabletitle {
+	font-family:Verdana, Geneva, sans-serif;
+	color:#666;
+	font-size:14px;
+	font-weight:bold;
+
+}
+
+#table,th,td {
+			border:1px;
+			border-color:#B8CCE4;
+			border-style:solid;
+			font-family:Verdana, Geneva, sans-serif;
+			font-size:13px;
+			color:#666;
+		}
